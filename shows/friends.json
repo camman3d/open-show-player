@@ -1,0 +1,150 @@
+{
+  "name": "friends",
+  "duration": 122500,
+  "time": 122500,
+  "zoom": 100,
+  "tracks": [
+    {
+      "points": [
+        {
+          "time": 1,
+          "value": 143,
+          "path": "/sources/1video/clip slots-friends.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 7000,
+          "value": 87,
+          "path": "/sources/5video/clip friends.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 7500,
+          "value": 138,
+          "path": "/sources/1video/clip friends.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 18000,
+          "value": 41,
+          "path": "/sources/2video/clip fire.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 23500,
+          "value": 129,
+          "path": "/sources/5video/clip friends1.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 26000,
+          "value": 68,
+          "path": "/sources/2video/clip black.jpg",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 49550,
+          "value": 131,
+          "path": "/sources/2video/clip snake.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 55810,
+          "value": 127,
+          "path": "/sources/2video/clip black.jpg",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 63500,
+          "value": 110,
+          "path": "/sources/5video/clip friends2.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 73000,
+          "value": 102,
+          "path": "/sources/3video/clip light-streaks.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 73000,
+          "value": 148,
+          "path": "/sources/2video/clip light-streaks.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 73000,
+          "value": 59,
+          "path": "/sources/4video/clip light-streaks.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 88500,
+          "value": 146,
+          "path": "/sources/2video/clip frogmagic.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 88500,
+          "value": 207,
+          "path": "/sources/4video/clip frogmagic2.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 88500,
+          "value": 78,
+          "path": "/sources/3video/clip frogmagic1.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 103500,
+          "value": 206,
+          "path": "/sources/2video/clip black.jpg",
+          "active": true,
+          "moving": false
+        },
+        {
+          "time": 103500,
+          "value": 68,
+          "path": "/sources/4video/clip black.jpg",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 103500,
+          "value": 141,
+          "path": "/sources/3video/clip black.jpg",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 117020,
+          "value": 127,
+          "path": "/sources/1video/clip slots-start.mov",
+          "active": false,
+          "moving": false
+        }
+      ],
+      "channel": 1,
+      "output": "osc1",
+      "name": "vpt",
+      "enabled": true,
+      "type": "osc"
+    }
+  ]
+}

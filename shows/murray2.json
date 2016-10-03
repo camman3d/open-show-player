@@ -1,0 +1,38 @@
+{
+  "name": "murray2",
+  "duration": 12000,
+  "time": 0,
+  "zoom": 100,
+  "tracks": [
+    {
+      "points": [
+        {
+          "time": 1,
+          "value": 155,
+          "path": "/sources/1video/clip murray-explode.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 5270,
+          "value": 136,
+          "path": "/sources/1video/clip black.jpg",
+          "active": true,
+          "moving": false
+        },
+        {
+          "time": 6500,
+          "value": 189,
+          "path": "/sources/1video/clip slots-start.mov",
+          "active": false,
+          "moving": false
+        }
+      ],
+      "channel": 1,
+      "output": "osc1",
+      "name": "vpt",
+      "enabled": true,
+      "type": "osc"
+    }
+  ]
+}

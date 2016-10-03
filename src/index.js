@@ -4,20 +4,36 @@ const transmit = require('./transmit');
 
 // Load all the shows into memory
 let showFiles = [
-    './shows/scar.json'
+    './shows/barker0.json',
+    './shows/barker1.json',
+    './shows/friends.json',
+    './shows/green.json',
+    './shows/murray.json',
+    './shows/murray2.json',
+    './shows/nuke.json',
+    './shows/orange.json',
+    './shows/pumpkin.json',
+    './shows/pumpkin2.json',
+    './shows/purple.json',
+    './shows/scar.json',
 ];
 let shows = {};
 showFiles.forEach(file => {
     let show = JSON.parse(fs.readFileSync(file));
     shows[show.name] = show;
-    console.log('Loaded show: ' + file.name);
+    console.log('Loaded show: ' + show.name);
 });
 
+console.log('Starting OSC server on port 12345');
 let server = new osc.Server(12345, '127.0.0.1');
 server.on('message', msg => {
-    console.log(msg);
+    console.log('Recieved OSC message:', msg);
     let name = msg[0].split('/')[2];
-    startShow(shows[name]);
+    if (!shows[name]) {
+        console.warn('Show not loaded:', name);
+    } else {
+        startShow(shows[name]);
+    }
 });
 
 function startShow(show) {

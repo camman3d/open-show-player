@@ -1,0 +1,74 @@
+{
+  "name": "nuke",
+  "duration": 23500,
+  "time": 15000,
+  "zoom": 100,
+  "tracks": [
+    {
+      "points": [
+        {
+          "time": 1,
+          "value": 138,
+          "path": "/sources/1video/clip slots-nuke.mov",
+          "active": true,
+          "moving": false
+        },
+        {
+          "time": 7500,
+          "value": 124,
+          "path": "/sources/1video/clip nuke.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 8250,
+          "value": 195,
+          "path": "/sources/5video/clip nuke.mov",
+          "active": false,
+          "moving": false
+        },
+        {
+          "time": 18990,
+          "value": 134,
+          "path": "/sources/1video/clip slots-start.mov",
+          "active": false,
+          "moving": false
+        }
+      ],
+      "channel": 1,
+      "output": "osc1",
+      "name": "vpt",
+      "enabled": true,
+      "type": "osc"
+    },
+    {
+      "points": [
+        {"time":6000, "value":182, "path":"/led/pattern green"}, {"time":6010, "value":182, "path":"/led/pattern yellow"},
+        {"time":6020, "value":182, "path":"/led/pattern orange"}, {"time":6030, "value":182, "path":"/led/pattern red"},
+        {"time":6040, "value":182, "path":"/led/pattern purple"}, {"time":6050, "value":182, "path":"/led/pattern blue"},
+        {"time":6060, "value":182, "path":"/led/pattern cyan"},
+        {"time":6070, "value":182, "path":"/led/pattern green"}, {"time":6080, "value":182, "path":"/led/pattern yellow"},
+        {"time":6090, "value":182, "path":"/led/pattern orange"}, {"time":6100, "value":182, "path":"/led/pattern red"},
+        {"time":6110, "value":182, "path":"/led/pattern purple"}, {"time":6120, "value":182, "path":"/led/pattern blue"},
+        {"time":6130, "value":182, "path":"/led/pattern cyan"},
+        {"time":6140, "value":182, "path":"/led/pattern green"}, {"time":6150, "value":182, "path":"/led/pattern yellow"},
+        {"time":6160, "value":182, "path":"/led/pattern orange"}, {"time":6170, "value":182, "path":"/led/pattern red"},
+        {"time":6180, "value":182, "path":"/led/pattern purple"}, {"time":6190, "value":182, "path":"/led/pattern blue"},
+        {"time":6200, "value":182, "path":"/led/pattern cyan"},
+        {"time":6210, "value":182, "path":"/led/pattern black"},
+
+        {"time":8250, "value":182, "path":"/led/pattern red"}, {"time":9250, "value":182, "path":"/led/pattern black"},
+        {"time":10250, "value":182, "path":"/led/pattern red"}, {"time":11250, "value":182, "path":"/led/pattern black"},
+        {"time":12250, "value":182, "path":"/led/pattern red"}, {"time":13250, "value":182, "path":"/led/pattern black"},
+        {"time":14250, "value":182, "path":"/led/pattern red"}, {"time":15250, "value":182, "path":"/led/pattern black"},
+
+        {"time":23000, "value":182, "path":"/led/pattern rainbow"}
+      ],
+      "channel":1,
+      "output":"osc2",
+      "name":"LED Colors",
+      "enabled":true,
+      "type":"osc"
+    }
+  ]
+}

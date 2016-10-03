@@ -1,0 +1,24 @@
+{
+  "name": "barker1",
+  "duration": 10,
+  "time": 0,
+  "zoom": 100,
+  "tracks": [
+    {
+      "points": [
+        {
+          "time": 1,
+          "value": 129,
+          "path": "/sources/5video/clip barker2.mov",
+          "active": false,
+          "moving": false
+        }
+      ],
+      "channel": 1,
+      "output": "osc1",
+      "name": "vpt",
+      "enabled": true,
+      "type": "osc"
+    }
+  ]
+}
