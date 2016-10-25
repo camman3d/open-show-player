@@ -145,6 +145,14 @@
       "name": "vpt",
       "enabled": true,
       "type": "osc"
-    }
+    },
+    {"output": "dmx1", "channel": 17, "name": "pumpkin light 1", "enabled": true, "type": "dmx", "points": [{"time": 7000,  "value": 255}, {"time": 7500, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 18, "name": "pumpkin light 2", "enabled": true, "type": "dmx", "points": [{"time": 7100,  "value": 255}, {"time": 7600, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 19, "name": "pumpkin light 3", "enabled": true, "type": "dmx", "points": [{"time": 7200,  "value": 255}, {"time": 7700, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 20, "name": "pumpkin light 4", "enabled": true, "type": "dmx", "points": [{"time": 7300,  "value": 255}, {"time": 7800, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 21, "name": "pumpkin light 5", "enabled": true, "type": "dmx", "points": [{"time": 7400,  "value": 255}, {"time": 7900, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 22, "name": "pumpkin light 6", "enabled": true, "type": "dmx", "points": [{"time": 7500,  "value": 255}, {"time": 8000, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 23, "name": "pumpkin light 7", "enabled": true, "type": "dmx", "points": [{"time": 7600,  "value": 255}, {"time": 8100, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]},
+    {"output": "dmx1", "channel": 24, "name": "pumpkin light 8", "enabled": true, "type": "dmx", "points": [{"time": 7700,  "value": 255}, {"time": 8200, "value": 0}, {"time": 121000, "value": 0}, {"time": 122000, "value": 255}]}
   ]
 }
