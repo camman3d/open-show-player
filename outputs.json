@@ -3,7 +3,7 @@
     "type": "dmx",
     "name": "DMX Output",
     "universe": 1,
-    "host": "192.168.1.134"
+    "host": "192.168.1.125"
   },
   "osc1": {
     "type": "osc",

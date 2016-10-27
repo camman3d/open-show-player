@@ -2,6 +2,7 @@
 // I changed it so it sent all 512 channels every time and took out the refresh
 // This is because OLA would erase the channels that were not set, creating delays
 var dgram = require('dgram');
+var staticLights = require('../static-lights.json');
 
 var Artnet = function (config) {
 
@@ -26,6 +27,8 @@ var Artnet = function (config) {
     var sendThrottle =  [];     // the timeouts
     var sendDelayed =   [];     // boolean flag indicating if data should be sent after sendThrottle timeout
     var dataChanged =   [];     // the highest channel number that had a change. mind that channel counting starts at 1!
+
+    Object.keys(staticLights).forEach(channel => data[channel] = staticLights[channel]);
 
     //var startRefresh = function (universe) {
     //    interval[universe] = setInterval(function () {

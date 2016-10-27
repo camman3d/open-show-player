@@ -1,3 +1,5 @@
+'use strict';
+
 const osc = require('node-osc');
 const fs = require('fs');
 const transmit = require('./transmit');
@@ -56,3 +58,6 @@ function startShow(show) {
     
 }
 
+if (process.argv.length === 3) {
+    startShow(shows[process.argv[2]]);
+}

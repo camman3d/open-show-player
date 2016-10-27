@@ -1,7 +1,19 @@
+'use strict';
+
 const outputs = require('./outputs');
 const sendOsc = outputs.sendOsc;
 const sendDmx = outputs.sendDmx;
 
+function getRgb(hex) {
+    if (hex[0] !== '#') {
+        hex = '#' + hex;
+    }
+    return {
+        r: parseInt(hex.substr(1,2), 16),
+        g: parseInt(hex.substr(3,2), 16),
+        b: parseInt(hex.substr(5,2), 16)
+    };
+}
 
 module.exports = function transmit(tracks, prevTime, time) {
     tracks.forEach(track => {
